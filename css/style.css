@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "share";
+    src: url("../fontes/ShareTechMono-Regular.ttf")
+    format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    color: black;
+
+}
+header img{
+    display: block;
+    width: 210px;
+    height: 60px;
+    margin: 50px 20px auto 20px;
+}
+
+h1{
+    font-size: 60px;
+    font-family: "share", sans-serif;
+    text-align: center;
+    margin-top: 60px;
+}
+p{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.link-html{
+    display: block;
+    color: white;
+    font-family: "share", Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: black;
+    margin: 30px auto;
+    width: 430px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 36px;
+}
+.link-css{
+     display: block;
+    color: white;
+    font-family: "share", Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: black;
+    margin: 30px auto;
+    width: 430px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 36px;
+}
+a:hover{
+     background-color: #32cec9;
+}
+img{
+    display: block;
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+}
+@media(max-width: 430px){
+    header{
+        margin: 32px 0 0 16px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 20px;
+        width: 340px;
+    }
+    .link-html{
+        font-size: 12px;
+        width: 251px;
+    }
+    .link-css{
+        font-size: 12px;
+        width: 251px;
+    }
+    
+    
+    img{
+        width: 340px;
+        height: 230px;
+    }
+}

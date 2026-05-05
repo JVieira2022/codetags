@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "share";
+    src: url("../fontes/ShareTechMono-Regular.ttf")
+    format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    color: black;
+
+}
+header img{
+    display: block;
+    width: 210px;
+    height: 60px;
+    margin: 50px 20px auto 20px;
+}
+
+h1{
+    font-size: 70px;
+    font-family: "share";
+    text-align: center;
+    margin-top: 60px;
+}
+.imgInfor{
+     display: block;
+    width: 800px;
+    height: 900px;
+    margin: 0 auto;
+}
+.imgMain{
+       display: block;
+    width: 400px;
+    height: 200px;
+    margin: 0px auto;
+}
+@media(max-width: 375px){
+    header{
+        margin: 32px 0 0 16px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 20px;
+        width: 340px;
+    }
+    .link-html{
+        font-size: 20px;
+        width: 251px;
+    }
+    .link-css{
+        font-size: 20px;
+        width: 251px;
+    }
+    
+    
+    img{
+        width: 340px;
+        height: 230px;
+    }
+}
